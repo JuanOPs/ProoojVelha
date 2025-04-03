@@ -32,6 +32,16 @@
                 DisplayAlert("GANHOOOOOOOOOOU!!!!!🔥🔥🔥", "O X ganhou, eba", "OK");
                 Zerar();
             }
+            else if(btn20.Text == "X" && btn21.Text == "X" && btn22.Text == "X")
+            {
+                DisplayAlert("AAAAAAAAAAIIIII!!!!!🤪🤪🤪", "O X ganhou, eba", "OK");
+                Zerar();
+            }
+            else if (btn30.Text == "X" && btn31.Text == "X" && btn32.Text == "X")
+            {
+                DisplayAlert("ELE FEZ DENOVO!!!!😬😬😬", "O X ganhou, eba", "OK");
+                Zerar();
+            }
             else if (btn10.Text == "O" && btn11.Text == "O" && btn12.Text == "O")
             {
                 DisplayAlert("EEEITAAAAAAA!!!🗣️🗣️🗣️", "O rendondinho ganhou", "OK");
@@ -44,10 +54,24 @@
             btn10.Text = "";
             btn11.Text = "";
             btn12.Text = "";
+            btn20.Text = "";
+            btn21.Text = "";
+            btn22.Text = "";
+            btn30.Text = "";
+            btn31.Text = "";
+            btn32.Text = "";
+
+
 
             btn10.IsEnabled = true;
             btn11.IsEnabled = true;
             btn12.IsEnabled = true;
+            btn20.IsEnabled = true;
+            btn21.IsEnabled = true;
+            btn22.IsEnabled = true;
+            btn30.IsEnabled = true;
+            btn31.IsEnabled = true;
+            btn32.IsEnabled = true;
         }
     }
 }
