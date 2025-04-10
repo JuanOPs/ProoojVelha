@@ -47,6 +47,67 @@
                 DisplayAlert("EEEITAAAAAAA!!!🗣️🗣️🗣️", "O rendondinho ganhou", "OK");
                 Zerar();
             }
+            else if (btn20.Text == "O" && btn21.Text == "O" && btn22.Text == "O")
+            {
+                DisplayAlert("IIIIIIIIIIIII!!!!🔥🔥🔥", "O rendondinho ganhou", "OK");
+                Zerar();
+            }
+            else if (btn30.Text == "O" && btn31.Text == "O" && btn32.Text == "O")
+            {
+                DisplayAlert("RAPAAAAAAAAAAiz!!!😬😬😬", "O rendondinho ganhou", "OK");
+                Zerar();
+            }
+            else if(btn10.Text == "X" && btn20.Text == "X" && btn30.Text == "X")
+            {
+                DisplayAlert("AAAAAAAAAAIIIII!!!!!🤪🤪🤪", "O X ganhou, eba", "OK");
+                Zerar();
+            }
+            else if (btn11.Text == "X" && btn21.Text == "X" && btn31.Text == "X")
+            {
+                DisplayAlert("GANHOOOOOOOOOOU!!!!!🔥🔥🔥", "O X ganhou, eba", "OK");
+                Zerar();
+            }
+            else if(btn12.Text == "X" && btn22.Text == "X" && btn32.Text == "X")
+            {
+                DisplayAlert("ELE FEZ DENOVO!!!!😬😬😬", "O X ganhou, eba", "OK");
+                Zerar();
+            }
+            else if (btn10.Text == "O" && btn20.Text == "O" && btn30.Text == "O")
+            {
+                DisplayAlert("RAPAAAAAAAAAAiz!!!😬😬😬", "O rendondinho ganhou", "OK");
+                Zerar();
+            }
+            else if(btn11.Text == "O" && btn21.Text == "O" && btn31.Text == "O")
+            {
+                DisplayAlert("EEEITAAAAAAA!!!🗣️🗣️🗣️", "O rendondinho ganhou", "OK");
+                Zerar();
+            }
+            else if(btn12.Text == "O" && btn22.Text == "O" && btn32.Text == "O")
+            {
+                DisplayAlert("RAPAAAAAAAAAAiz!!!😬😬😬", "O rendondinho ganhou", "OK");
+                Zerar();
+            }
+            else if(btn10.Text == "X" && btn21.Text == "X" && btn32.Text == "X")
+            {
+                DisplayAlert("AAAAAAAAAAIIIII!!!!!🤪🤪🤪", "O X ganhou, eba", "OK");
+                Zerar();
+            }
+            else if(btn12.Text == "X" && btn21.Text == "X" && btn30.Text == "X")
+            {
+                DisplayAlert("GANHOOOOOOOOOOU!!!!!🔥🔥🔥", "O X ganhou, eba", "OK");
+                Zerar();
+            }
+            else if(btn10.Text == "O" && btn21.Text == "O" && btn32.Text == "O")
+            {
+                DisplayAlert("RAPAAAAAAAAAAiz!!!😬😬😬", "O rendondinho ganhou", "OK");
+                Zerar();
+            }
+            else if (btn12.Text == "O" && btn21.Text == "O" && btn30.Text == "O")
+            {
+                DisplayAlert("EEEITAAAAAAA!!!🗣️🗣️🗣️", "O rendondinho ganhou", "OK");
+                Zerar();
+            }
+
         }// Fecha método
 
         void Zerar()
@@ -72,6 +133,7 @@
             btn30.IsEnabled = true;
             btn31.IsEnabled = true;
             btn32.IsEnabled = true;
-        }
+        
+
     }
 }
