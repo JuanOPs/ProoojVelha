@@ -134,6 +134,6 @@
             btn31.IsEnabled = true;
             btn32.IsEnabled = true;
         
-
+        }
     }
 }
